@@ -75,7 +75,7 @@ print("-----------------------------------")
 my_list = [1,2,3,4,5,6,7,8,9,10]
 
 for val in my_list:
-    if val ==93:
+    if val ==9:
         print("Item no ", val, " is found in the database")
     else:
         print("we are at item no ", val, " the item 9 is not found yet :(")

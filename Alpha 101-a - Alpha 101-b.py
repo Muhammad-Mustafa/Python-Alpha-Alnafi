@@ -34,6 +34,9 @@ print(otherStrings)
 print(tripleString)
 
 
+print("-----------------------------------")
+
+
 #str casting 
 
 my_number = 123
@@ -46,6 +49,9 @@ my_number_cast  = str(my_number)
 print(type(my_number_cast))
 print(my_number_cast)
 
+print("-----------------------------------")
+
+
 #string concatenation 
 
 string_1 = "sharfoo is a good"
@@ -53,21 +59,36 @@ string_2 = ' guy'
 string_3 = string_1 + string_2
 print(string_3)
 
+print("-----------------------------------")
+
+
 #upper and lower methods in string
 
 str_1 = 'This is a string'
 print(str_1.upper())
 print(str_1.lower())
 
+print("-----------------------------------")
+
+
 #dir in string
+
+print("-----------------------------------")
+
 
 print(dir(str_1))
 
 #help in python
 
+print("-----------------------------------")
+
+
 print(help(my_string.upper))
 
 #string slicing 
+
+print("-----------------------------------")
+
 
 country_name = 'My country name is Pakistan '
 

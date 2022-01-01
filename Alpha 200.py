@@ -32,6 +32,9 @@ print(new_combo_list)
 print(new_combo_list1)
 
 
+print("-----------------------------------")
+
+
 # Sorting the list using sorting method
 
 alpha_list = [22,3,44,5,66,73,2,-6,0.2,0,1.1,998]
@@ -40,6 +43,9 @@ gamma_list = beta_list.sort()
 
 print(gamma_list)
 
+print("-----------------------------------")
+
+
 print("Before sorting")
 print(alpha_list)
 print("After sorting")
@@ -47,10 +53,16 @@ alpha_list.sort()
 
 print(alpha_list)
 
+print("-----------------------------------")
+
+
 # Slicing a list 
 
 list_1 = [22,3,44,5,66,73,2,-6,0.2,0,1.1,998]
 print(list_1[0:3])
+
+print("-----------------------------------")
+
 
 
 '''Tuples'''
@@ -70,6 +82,9 @@ tuple_to_list = list(tuple_list)
 print(tuple_to_list)
 print(type(tuple_to_list))
 
+print("-----------------------------------")
+
+
 '''Dictionary'''
 
 dict_1 = {
@@ -80,6 +95,9 @@ dict_1 = {
 
 print(type(dict_1))
 print(dict_1)
+
+print("-----------------------------------")
+
 
 address_book = {
     "name":"Mustafa",
